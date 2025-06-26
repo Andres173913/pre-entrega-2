@@ -363,6 +363,16 @@ footer {
         margin-bottom: 1%;
     }
 
+    .btn_ordenar{
+        display: flex;
+        padding-top: 2rem;
+    }
+
+    .btn_ordenar4{
+        display: flex;
+        padding-top: 4.5rem;
+    }
+
     /*Card de pages contactos*/
     .ordcontactos {
         flex-direction: row;
