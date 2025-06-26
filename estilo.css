@@ -1,0 +1,398 @@
+/*Estilos Generales*/
+/*Google Fonts*/
+* {
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+
+/*Quitar Pelotitas de la lista*/
+ul {
+    list-style: none;
+}
+
+/*Imagen Fondo*/
+body {
+    background-image: url(./img/Background_Logos_BQ.jpg);
+}
+
+.logowpp {
+    width: 3rem;
+    right: 0;
+}
+
+/*Header Index*/
+/*Formato del Header*/
+.indexheader {
+    background-image: url(./img/Background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: bottom;
+}
+
+.optimistheader {
+    background-image: url(./img/optimist/largada_optimist.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: bottom;
+}
+
+.ilcaheader {
+    background-image: url(./img/ilca/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: bottom;
+}
+/*29er*/
+.erheader{
+    background-image: url(./img/29er/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: bottom;
+}
+
+/*Logo Header*/
+.logoheader {
+    width: 15rem;
+    height: auto;
+}
+
+.tituloheader {
+    margin-left: 1rem;
+    color: #fc2323;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    max-width: 30rem;
+}
+
+/*Para el nav de ilca*/
+.navbackground {
+    background-color: #00000049;
+}
+
+/*Estilo Main*/
+
+.Titulomain {
+    color: #b4dd61;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+/*aplico grid a las cards*/
+.ordenarcards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    /*las alineo al centro*/
+    row-gap: 20px;
+    /*separo filas*/
+}
+
+/*Tamaño y color de las cards*/
+.cards {
+    max-width: 25rem;
+    background-color: rgb(127, 255, 234);
+    border-radius: 1rem;
+}
+
+.cards img {
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 1rem;
+}
+
+.titulo_card {
+    text-align: center;
+    line-height: 0;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+.parrafo_card {
+    text-align: justify;
+    color: #0000ff;
+    width: 95%;
+    margin-top: 10%;
+}
+
+/*Precio de descuento*/
+.precio_card {
+    color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Precio tachado de las cards*/
+.precio_card span {
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+/*Boton de las cards*/
+.btn_card {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 3%;
+}
+
+/*Card de pages contactos*/
+.ordcontactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.card_contactos {
+    background-color: #00ffff;
+    width: 18rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.text_card {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.text_mensaje {
+    width: 95%;
+    height: 10rem;
+    margin-left: 2%;
+}
+
+/*cards pages optimist*/
+.ord_cards_optimist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Estilos Footer*/
+/*Tamaño y color footer*/
+footer {
+    background-color: #000000;
+    height: 45vh;
+}
+
+/*Logos redes sociales*/
+.logotipofooter {
+    width: 2rem;
+    height: auto;
+    object-fit: cover;
+    margin-top: 0.5rem;
+}
+
+.parrafo_footer {
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 4rem;
+}
+
+.ordenarfooter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.ordenar_logos {
+    display: flex;
+}
+
+.link_footer {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+@media only screen and (min-width: 760px) {
+
+    .logoheader {
+        width: 20rem;
+        height: auto;
+    }
+
+    .tituloheader {
+        margin-left: 1rem;
+        color: #fc2323;
+        font-size: 2rem;
+        text-decoration: underline;
+        width: 95%;
+    }
+
+    .ordenarnav {
+        padding-top: 24% !important;
+    }
+
+    /*Boton Header*/
+    .btnheader {
+        width: 15rem;
+        font-size: 1.5rem;
+        text-align: center;
+        background-color: #ffff00;
+        color: #ff0000;
+        border: none;
+    }
+
+    /*main*/
+
+    .Titulomain {
+        font-size: 3rem;
+    }
+
+    .ordenarcards {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        /*las alineo al centro*/
+    }
+
+    /*Card de pages contactos*/
+    .ordcontactos {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card_contactos {
+        background-color: #00ffff;
+        width: 30rem;
+        border-radius: 1rem;
+        margin-right: 5%;
+    }
+
+    .text_card {
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    .text_mensaje {
+        width: 95%;
+        height: 10rem;
+        margin-left: 2%;
+    }
+
+    /*cards optimist*/
+    .ord_cards_optimist {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        /*las alineo al centro*/
+    }
+
+    /*footer*/
+    footer {
+        height: 40vh;
+    }
+
+    .ordenarfooter {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .parrafo_footer {
+        margin-top: 100px;
+    }
+
+    .ordenar_logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link_footer {
+        color: #f5f5f5;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    /*header*/
+
+    /*Para el nav de ilca*/
+    .navbackground {
+        background-color: #00000000;
+    }
+
+    /*Main*/
+    .ordenarcards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /*separo en 2 columnas iguales*/
+        justify-items: center;
+        /*las alineo al centro*/
+        row-gap: 20px;
+        /*separo filas*/
+    }
+
+    .cards img {
+        margin-top: 1%;
+    }
+
+    .titulo_card {
+        font-size: 2.5rem;
+    }
+
+    .parrafo_card {
+        font-size: 1.5rem;
+    }
+
+    /*Precio de descuento*/
+    .precio_card {
+        font-size: 1.5rem;
+    }
+
+    .btn_card {
+        margin-bottom: 1%;
+    }
+
+    /*Card de pages contactos*/
+    .ordcontactos {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card_contactos {
+        background-color: #00ffff;
+        width: 30rem;
+        border-radius: 1rem;
+        margin-right: 5%;
+    }
+
+    .text_card {
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    .text_mensaje {
+        width: 95%;
+        height: 10rem;
+        margin-left: 2%;
+    }
+
+    /*cards optimist*/
+    .ord_cards_optimist {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /*separo en 2 columnas iguales*/
+        justify-items: center;
+        /*las alineo al centro*/
+        row-gap: 20px;
+    }
+}
