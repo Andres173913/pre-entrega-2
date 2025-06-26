@@ -216,7 +216,7 @@ footer {
     margin-left: 1rem;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 600px) {
 
     .logoheader {
         width: 20rem;
@@ -232,7 +232,7 @@ footer {
     }
 
     .ordenarnav {
-        padding-top: 24% !important;
+        padding-top: 20% !important;
     }
 
     /*Boton Header*/
@@ -318,13 +318,17 @@ footer {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 900px) {
 
     /*header*/
 
+     .ordenarnav {
+        padding-top: 20% !important;
+    }
+
     /*Para el nav de ilca*/
     .navbackground {
-        background-color: #00000000;
+        background-color: #00000054;
     }
 
     /*Main*/
