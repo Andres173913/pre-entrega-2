@@ -1,0 +1,184 @@
+@media only screen and (min-width: 600px) {
+
+    .logoheader {
+        width: 20rem;
+        height: auto;
+    }
+
+    .tituloheader {
+        margin-left: 1rem;
+        color: #fc2323;
+        font-size: 2rem;
+        text-decoration: underline;
+        width: 95%;
+    }
+
+    .ordenarnav {
+        padding-top: 20% !important;
+    }
+
+    /*main*/
+
+    .Titulomain {
+        font-size: 3rem;
+    }
+
+    .ordenarcards {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        /*las alineo al centro*/
+    }
+
+    /*Card de pages contactos*/
+    .ordcontactos {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card_contactos {
+        background-color: #00ffff;
+        width: 30rem;
+        border-radius: 1rem;
+        margin-right: 5%;
+    }
+
+    .text_card {
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    .text_mensaje {
+        width: 95%;
+        height: 10rem;
+        margin-left: 2%;
+    }
+
+    /*cards optimist*/
+    .ord_cards_optimist {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        /*las alineo al centro*/
+    }
+
+    /*footer*/
+    footer {
+        height: 40vh;
+    }
+
+    .ordenarfooter {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .parrafo_footer {
+        margin-top: 100px;
+    }
+
+    .ordenar_logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link_footer {
+        color: $colorblanco;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+
+    /*header*/
+
+     .ordenarnav {
+        padding-top: 20% !important;
+    }
+
+    /*Para el nav de ilca*/
+    .navbackground {
+        background-color: #00000054;
+    }
+
+    /*Main*/
+    .ordenarcards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /*separo en 2 columnas iguales*/
+        justify-items: center;
+        /*las alineo al centro*/
+        row-gap: 20px;
+        /*separo filas*/
+    }
+
+    .cards img {
+        margin-top: 1%;
+    }
+
+    .titulo_card {
+        font-size: 2.5rem;
+    }
+
+    .parrafo_card {
+        font-size: 1.5rem;
+    }
+
+    /*Precio de descuento*/
+    .precio_card {
+        font-size: 1.5rem;
+    }
+
+    .btn_card {
+        margin-bottom: 1%;
+    }
+
+    .btn_ordenar{
+        display: flex;
+        padding-top: 2rem;
+    }
+
+    .btn_ordenar4{
+        display: flex;
+        padding-top: 4.5rem;
+    }
+
+    /*Card de pages contactos*/
+    .ordcontactos {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card_contactos {
+        background-color: #00ffff;
+        width: 30rem;
+        border-radius: 1rem;
+        margin-right: 5%;
+    }
+
+    .text_card {
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+    .text_mensaje {
+        width: 95%;
+        height: 10rem;
+        margin-left: 2%;
+    }
+
+    /*cards optimist*/
+    .ord_cards_optimist {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /*separo en 2 columnas iguales*/
+        justify-items: center;
+        /*las alineo al centro*/
+        row-gap: 20px;
+    }
+}

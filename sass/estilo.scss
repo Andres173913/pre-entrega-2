@@ -1,0 +1,34 @@
+ @import "./utilidades/variables";
+ @import "./utilidades/extends";
+ @import "./layout/header";
+ @import "./layout/main";
+ @import "./layout/footer";
+ @import "./mq/mq";
+
+/*Estilos Generales*/
+/*Google Fonts*/
+* {
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+
+/*Quitar Pelotitas de la lista*/
+ul {
+    list-style: none;
+}
+
+/*Imagen Fondo*/
+body {
+    background-image: url(./img/Background_Logos_BQ.jpg);
+}
+
+.logowpp {
+    width: 3rem;
+    right: 0;
+}
+
+
+
+
+
+
+

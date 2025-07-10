@@ -1,0 +1,38 @@
+.indexheader {
+    background-image: url(./img/Background.jpeg);
+    @extend .alinearheader;
+}
+
+.optimistheader {
+    background-image: url(./img/optimist/largada_optimist.png);
+   @extend .alinearheader;
+}
+
+.ilcaheader {
+    background-image: url(./img/ilca/background.jpeg);
+   @extend .alinearheader;
+}
+/*29er*/
+.erheader{
+    background-image: url(./img/29er/background.jpeg);
+   @extend .alinearheader;
+}
+
+/*Logo Header*/
+.logoheader {
+    width: 15rem;
+    height: auto;
+}
+
+.tituloheader {
+    margin-left: 1rem;
+    color: #fc2323;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    max-width: 30rem;
+}
+
+/*Para el nav de ilca*/
+.navbackground {
+    background-color: #00000049;
+}
