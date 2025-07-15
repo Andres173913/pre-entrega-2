@@ -1,12 +1,12 @@
-.alinearheader{
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 95vh;
-    background-position: bottom;
+%alinearheader {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+  background-position: bottom;
 }
 
-.flexcolum{
-     display: flex;
+%flexcolum {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }

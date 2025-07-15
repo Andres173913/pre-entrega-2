@@ -25,6 +25,12 @@
     border-radius: 1rem;
 }
 
+.card_igualar{
+    height: 25rem;
+    object-fit: cover;
+    max-width: 25rem;
+}
+
 .cards img {
     width: 100%;
     margin-top: 5%;
@@ -63,7 +69,6 @@
 
 /*Boton de las cards*/
 .btn_card {
-    width: 100%;
     text-align: center;
     font-size: 1.5rem;
     border: none;
@@ -73,7 +78,7 @@
 
 /*Card de pages contactos*/
 .ordcontactos {
-    @extend .flexcolum;
+    @extend %flexcolum;
     padding-top: 1rem;
 }
 
@@ -97,5 +102,5 @@
 
 /*cards pages optimist*/
 .ord_cards_optimist {
-    @extend .flexcolum;
+    @extend %flexcolum;
 }

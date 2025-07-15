@@ -1,12 +1,12 @@
 @charset "UTF-8";
-.alinearheader, .erheader, .ilcaheader, .optimistheader, .indexheader {
+.erheader, .ilcaheader, .optimistheader, .indexheader {
   background-size: cover;
   background-repeat: no-repeat;
   height: 95vh;
   background-position: bottom;
 }
 
-.flexcolum, .ord_cards_optimist, .ordcontactos {
+.ord_cards_optimist, .ordcontactos {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +45,7 @@
 
 /*Para el nav de ilca*/
 .navbackground {
-  background-color: rgba(0, 0, 0, 0.2862745098);
+  background-color: rgba(0, 0, 0, 0.7725490196);
 }
 
 /*Estilo Main*/
@@ -72,6 +72,12 @@
   max-width: 25rem;
   background-color: rgb(127, 255, 234);
   border-radius: 1rem;
+}
+
+.card_igualar {
+  height: 25rem;
+  object-fit: cover;
+  max-width: 25rem;
 }
 
 .cards img {
@@ -112,7 +118,6 @@
 
 /*Boton de las cards*/
 .btn_card {
-  width: 100%;
   text-align: center;
   font-size: 1.5rem;
   border: none;
@@ -186,6 +191,7 @@ footer {
   .logoheader {
     width: 20rem;
     height: auto;
+    object-fit: cover;
   }
   .tituloheader {
     margin-left: 1rem;
@@ -195,7 +201,10 @@ footer {
     width: 95%;
   }
   .ordenarnav {
-    padding-top: 20% !important;
+    padding-top: 17rem !important;
+  }
+  .navbackground {
+    background-color: rgba(0, 0, 0, 0.7725490196);
   }
   /*main*/
   .Titulomain {
@@ -260,11 +269,11 @@ footer {
 @media only screen and (min-width: 900px) {
   /*header*/
   .ordenarnav {
-    padding-top: 20% !important;
+    padding-top: 17rem !important;
   }
   /*Para el nav de ilca*/
   .navbackground {
-    background-color: rgba(0, 0, 0, 0.3294117647);
+    background-color: rgba(0, 0, 0, 0.7725490196);
   }
   /*Main*/
   .ordenarcards {

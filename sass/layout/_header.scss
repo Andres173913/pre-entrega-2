@@ -1,21 +1,21 @@
 .indexheader {
     background-image: url(./img/Background.jpeg);
-    @extend .alinearheader;
+    @extend %alinearheader;
 }
 
 .optimistheader {
     background-image: url(./img/optimist/largada_optimist.png);
-   @extend .alinearheader;
+   @extend %alinearheader;
 }
 
 .ilcaheader {
     background-image: url(./img/ilca/background.jpeg);
-   @extend .alinearheader;
+   @extend %alinearheader;
 }
 /*29er*/
 .erheader{
     background-image: url(./img/29er/background.jpeg);
-   @extend .alinearheader;
+   @extend %alinearheader;
 }
 
 /*Logo Header*/
@@ -34,5 +34,5 @@
 
 /*Para el nav de ilca*/
 .navbackground {
-    background-color: #00000049;
+    background-color: $opacidad;
 }

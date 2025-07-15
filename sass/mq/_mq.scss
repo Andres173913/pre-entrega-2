@@ -3,6 +3,7 @@
     .logoheader {
         width: 20rem;
         height: auto;
+        object-fit: cover;
     }
 
     .tituloheader {
@@ -14,7 +15,11 @@
     }
 
     .ordenarnav {
-        padding-top: 20% !important;
+        padding-top: 17rem !important;
+    }
+
+    .navbackground {
+        background-color: $opacidad;
     }
 
     /*main*/
@@ -94,13 +99,13 @@
 
     /*header*/
 
-     .ordenarnav {
-        padding-top: 20% !important;
+    .ordenarnav {
+        padding-top: 17rem !important;
     }
 
     /*Para el nav de ilca*/
     .navbackground {
-        background-color: #00000054;
+        background-color: $opacidad;
     }
 
     /*Main*/
@@ -135,12 +140,12 @@
         margin-bottom: 1%;
     }
 
-    .btn_ordenar{
+    .btn_ordenar {
         display: flex;
         padding-top: 2rem;
     }
 
-    .btn_ordenar4{
+    .btn_ordenar4 {
         display: flex;
         padding-top: 4.5rem;
     }
